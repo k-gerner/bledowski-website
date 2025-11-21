@@ -100,7 +100,6 @@ bledowski-website/
 ├── package.json        # Dependencies and scripts
 ├── tsconfig.json       # TypeScript configuration
 ├── vite.config.ts      # Vite configuration
-├── tailwind.config.js  # TailwindCSS configuration
 ├── postcss.config.js   # PostCSS configuration
 └── vercel.json         # Vercel deployment configuration
 ```
