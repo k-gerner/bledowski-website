@@ -1,2 +1,18 @@
 @import "tailwindcss";
 
+/* Custom theme configuration for TailwindCSS v4 */
+@theme {
+  /* Custom colors can be added here */
+  --color-primary: #3b82f6;
+  --color-secondary: #8b5cf6;
+  --color-accent: #10b981;
+  
+  /* Custom fonts */
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  /* Custom spacing (extends default) */
+  --spacing-72: 18rem;
+  --spacing-84: 21rem;
+  --spacing-96: 24rem;
+}
+

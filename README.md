@@ -87,6 +87,43 @@ The project includes a `vercel.json` configuration file that specifies:
 - Output directory: `dist`
 - Development command: `npm run dev`
 
+## Customizing Styles
+
+TailwindCSS v4 supports two approaches for customization:
+
+### 1. CSS-based Configuration (Recommended)
+
+Edit `src/index.css` to customize your theme using the `@theme` directive:
+
+```css
+@theme {
+  /* Custom colors */
+  --color-primary: #3b82f6;
+  --color-secondary: #8b5cf6;
+  
+  /* Custom spacing */
+  --spacing-72: 18rem;
+}
+```
+
+### 2. JavaScript Configuration (Traditional)
+
+Alternatively, you can use `tailwind.config.js` for configuration:
+
+```js
+export default {
+  theme: {
+    extend: {
+      colors: {
+        primary: '#3b82f6',
+      },
+    },
+  },
+}
+```
+
+Both configuration methods are supported and will work together.
+
 ## Project Structure
 
 ```
@@ -95,11 +132,12 @@ bledowski-website/
 ├── src/                 # Source code
 │   ├── App.tsx         # Main App component
 │   ├── main.tsx        # Application entry point
-│   └── index.css       # Global styles with Tailwind directives
+│   └── index.css       # Global styles with Tailwind directives and theme config
 ├── index.html          # HTML template
 ├── package.json        # Dependencies and scripts
 ├── tsconfig.json       # TypeScript configuration
 ├── vite.config.ts      # Vite configuration
+├── tailwind.config.js  # TailwindCSS configuration
 ├── postcss.config.js   # PostCSS configuration
 └── vercel.json         # Vercel deployment configuration
 ```
