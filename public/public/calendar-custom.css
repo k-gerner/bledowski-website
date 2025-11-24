@@ -1,0 +1,89 @@
+/* ====== GENERAL WRAPPER ====== */
+#ac-container,
+.acifc {
+    max-width: 650px !important;
+    margin: 0 auto !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    background: white !important;
+    border: 1px solid #e5e7eb !important;
+    /* soft gray border */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+    padding: 12px !important;
+}
+
+/* ====== CALENDAR FONT ====== */
+.ac-month-title,
+.ac-day-name,
+.ac-day-number {
+    font-family: 'Inter', 'Roboto', sans-serif !important;
+}
+
+/* ====== MONTH HEADER ====== */
+.ac-month-title {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    /* dark slate */
+    margin-bottom: 8px !important;
+}
+
+/* ====== DAYS OF WEEK ====== */
+.ac-day-name {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: #6b7280 !important;
+    /* gray-500 */
+}
+
+/* ====== DAY BOXES ====== */
+.ac-day {
+    border-radius: 8px !important;
+    transition: 0.2s ease;
+}
+
+.ac-day:hover {
+    background: #f3f4f6 !important;
+    /* light hover */
+}
+
+/* ====== AVAILABLE DAYS ====== */
+.ac-available {
+    color: #10b981 !important;
+    /* emerald */
+    font-weight: 600 !important;
+}
+
+/* ====== UNAVAILABLE DAYS (BOOKED) ====== */
+.ac-unavailable,
+.ac-blocked,
+.ac-booked {
+    background: #fee2e2 !important;
+    /* red-100 */
+    color: #b91c1c !important;
+    /* red-700 */
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+/* ====== TODAY ====== */
+.ac-today {
+    background: #e0f2fe !important;
+    color: #0369a1 !important;
+    font-weight: 700 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 0 0 2px #0ea5e9 !important;
+    /* sky-500 ring */
+}
+
+/* ====== NAVIGATION ARROWS ====== */
+.ac-nav-button {
+    font-size: 20px !important;
+    color: #374151 !important;
+    transition: 0.2s ease;
+}
+
+.ac-nav-button:hover {
+    color: #111827 !important;
+    transform: scale(1.15);
+}
