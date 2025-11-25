@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials'
 import Amenities from './components/Amenities'
 import ContactForm from './components/ContactForm'
 import AboutOwners from './components/AboutOwners'
+import ClassificationCertification from './components/ClassificationCertification'
 
 function App() {
   // Placeholder images - replace with your actual images
@@ -41,6 +42,9 @@ function App() {
 
         {/* Amenities Section */}
         <Amenities />
+
+        {/* Classification & Certification Section */}
+        <ClassificationCertification />
 
         <section className="container mx-auto px-4">
           <Rates />
