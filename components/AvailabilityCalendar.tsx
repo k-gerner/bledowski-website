@@ -4,12 +4,17 @@ import { useState, useEffect } from "react";
 function CalendarEmbed() {
   const [isClient, setIsClient] = useState(false); // Only render on client
   const [isMobile, setIsMobile] = useState(false);
+  const [isTablet, setIsTablet] = useState(false);
 
   useEffect(() => {
     setIsClient(true); // Now we are in the browser
 
-    // Detect mobile screen
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    // Detect screen size
+    const handleResize = () => {
+      const width = window.innerWidth;
+      setIsMobile(width < 768);
+      setIsTablet(width >= 768 && width < 1024);
+    };
     handleResize(); // Initial check
     window.addEventListener("resize", handleResize);
 
@@ -19,8 +24,8 @@ function CalendarEmbed() {
   // Do not render iframe on server
   if (!isClient) return null;
 
-  // Mobile vs desktop months
-  const numMonthsVisible = isMobile ? 1 : 3;
+  // Mobile: 1 month, Tablet (md): 2 months, Desktop (lg+): 3 months
+  const numMonthsVisible = isMobile ? 1 : isTablet ? 2 : 3;
 
   const cssUrl =
     process.env.NODE_ENV === "development"
