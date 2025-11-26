@@ -6,20 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: '#3b82f6',
-        secondary: '#8b5cf6',
-        accent: '#10b981',
-      },
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],
-      },
-      spacing: {
-        '72': '18rem',
-        '84': '21rem',
-        '96': '24rem',
+        advent: ["var(--font-advent)", "ui-sans-serif", "system-ui"],
+        sans: ["var(--font-geist-sans)", "ui-sans-serif", "system-ui"],
+        mono: ["var(--font-geist-mono)", "ui-monospace", "monospace"],
       },
     },
   },
   plugins: [],
-}
+};
