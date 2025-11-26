@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Advent_Pro } from "next/font/google";
 const adventPro = Advent_Pro({
@@ -7,7 +8,7 @@ const adventPro = Advent_Pro({
 
 function Header() {
     return (
-        <header className="bg-gradient-to-r from-blue-500 to-blue-100 text-white shadow-lg">
+        <header className="bg-gradient-to-r from-blue-500 to-blue-200 text-white shadow-lg">
             <div className="container mx-auto px-4 py-2">
                 <div className="flex items-center gap-3 md:gap-6">
                     {/* Logo */}
@@ -20,13 +21,33 @@ function Header() {
                     />
                     {/* Title and Subtitle */}
                     <div>
-                        <h1 className={`text-2xl md:text-5xl font-bold mb-1 md:mb-2 ${adventPro.className}`}>
-                        Chalet la Falaise
+                        <h1
+                            className={`text-2xl md:text-5xl font-bold mb-1 md:mb-2 ${adventPro.className}`}
+                            style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.5)" }}>
+                            Chalet la Falaise
                         </h1>
-                        <p className={`text-sm md:text-xl text-blue-100 ${adventPro.className}`}>
+                        <p className={`text-sm md:text-xl text-black-500 ${adventPro.className}`}
+                            style={{ textShadow: "2px 2px 3px rgba(0,0,0,0.5)" }}>
                         French culture in the heart of Québec
                         </p>
                     </div>
+                </div>
+                <div className="flex flex-wrap gap-3">
+                    {[
+                        { full: "English 🇬🇧", short: "🇬🇧" },
+                        { full: "Français 🇫🇷", short: "🇫🇷" },
+                        { full: "Polski 🇵🇱", short: "🇵🇱" },
+                        { full: "Deutsch 🇩🇪", short: "🇩🇪" },
+                    ].map((lang) => (
+                        <button
+                        key={lang.full}
+                        onClick={() => console.log("switch", lang.short)}
+                        className="bg-white text-blue-700 px-3 py-1 rounded shadow hover:bg-blue-100 hover:scale-105 transition-transform cursor-pointer"
+                        >
+                        <span className="hidden sm:inline">{lang.full}</span>
+                        <span className="inline sm:hidden">{lang.short}</span>
+                        </button>
+                    ))}
                 </div>
             </div>
         </header>
