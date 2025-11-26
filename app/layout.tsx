@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 const adventPro = Advent_Pro({
   subsets: ["latin"],
-  weight: ["400","500","600","700"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-advent",
 });
 
@@ -55,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-gray-50">
       <body className={`${geistSans.variable} ${geistMono.variable} ${adventPro.variable} antialiased`}>
         {children}
       </body>
