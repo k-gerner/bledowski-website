@@ -80,7 +80,7 @@ function ImageCarousel({ images }: ImageCarouselProps) {
                             setAutoScrollImages(false) // Stop auto-scroll when user clicks
                             setCurrentImageIndex(index)
                         }}
-                        className={`w-3 h-3 rounded-full transition ${index === currentImageIndex ? 'bg-blue-600' : 'bg-gray-300'
+                        className={`hover:cursor-pointer w-3 h-3 rounded-full transition ${index === currentImageIndex ? 'bg-blue-600' : 'bg-gray-300'
                             }`}
                         aria-label={`Go to image ${index + 1}`}
                     />

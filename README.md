@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chalet La Falaise Website
 
-## Getting Started
+A modern vacation rental website built with [Next.js](https://nextjs.org) for a luxury property in Mont Tremblant, Quebec.
 
-First, run the development server:
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 20+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/k-gerner/bledowski-website.git
+cd bledowski-website
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Development
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The page auto-updates as you edit files. Main pages and components are located in:
+- `app/page.tsx` - Home page
+- `app/layout.tsx` - Root layout with metadata
+- `components/` - Reusable React components
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Building for Production
 
-## Learn More
+Create an optimized production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Test the production build locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+```
 
-## Deploy on Vercel
+This will start a production server at [http://localhost:3000](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+bledowski-website/
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Home page
+│   ├── layout.tsx         # Root layout with SEO metadata
+│   └── globals.css        # Global styles
+├── components/            # React components
+│   ├── Header.tsx
+│   ├── ImageCarousel.tsx
+│   ├── PropertyDescription.tsx
+│   ├── Amenities.tsx
+│   ├── AvailabilityCalendar.tsx
+│   └── ... (other components)
+├── public/                # Static assets
+│   ├── calendar-custom.css
+│   └── carousel/          # Image assets
+├── next.config.ts         # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+└── package.json           # Dependencies and scripts
+```
+
+## 🎨 Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **UI**: React 19
+- **Styling**: Tailwind CSS 4
+- **Icons**: React Icons
+- **Language**: TypeScript
+- **Deployment**: Vercel
+
+## 📦 Key Features
+
+- Server-side rendering (SSR) and static site generation (SSG)
+- Responsive design with Tailwind CSS
+- Interactive image carousel
+- Embedded availability calendar
+- Contact form
+- Property details and amenities showcase
+- SEO optimized with Next.js metadata
+
+## 🔧 Configuration
+
+### Tailwind CSS
+
+This project uses Tailwind CSS v4 with the `@tailwindcss/postcss` plugin. Configuration is in `tailwind.config.js`.
+
+### Calendar Custom Styling
+
+The availability calendar uses custom CSS located at `public/calendar-custom.css`. In development, it loads from `localhost:5173`, and in production from the Vercel deployment URL.
+
+## 🚢 Deployment
+
+This project is configured for seamless deployment on Vercel:
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically detect Next.js and deploy
+4. **Important**: Do not add a `vercel.json` file - let Vercel auto-detect the framework
+5. In Vercel dashboard settings:
+   - Framework Preset: Next.js
+   - Leave Build Command, Output Directory, and Install Command **blank**
+
+### Environment Variables
+
+No environment variables are currently required for this project.
+
+## 📝 Development Notes
+
+- The availability calendar iframe loads from `availabilitycalendar.com`
+- Custom calendar styles are applied via the `css` parameter in the iframe URL
+- Images use Next.js Image component for optimization
+- Remote images from Unsplash are configured in `next.config.ts`
+
+## 🤝 Contributing
+
+This is a private project for Chalet La Falaise. For any issues or suggestions, please contact the repository owner.
+
+## 📄 License
+
+Private - All rights reserved.

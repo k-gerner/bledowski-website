@@ -79,7 +79,7 @@ function Testimonials() {
 
                 <div className="relative max-w-7xl mx-auto">
                     {/* Testimonials Container */}
-                    <div className="overflow-hidden">
+                    <div className="overflow-hidden pb-2">
                         <div
                             className="flex transition-transform duration-500 ease-in-out"
                             style={{ transform: `translateX(-${currentIndex * itemWidth}%)` }}
@@ -145,7 +145,7 @@ function Testimonials() {
                             <button
                                 key={index}
                                 onClick={() => setCurrentIndex(index)}
-                                className={`w-3 h-3 rounded-full transition ${index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
+                                className={`hover:cursor-pointer w-3 h-3 rounded-full transition ${index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
                                     }`}
                                 aria-label={`Go to testimonial ${index + 1}`}
                             />
