@@ -4,7 +4,7 @@ function Rates() {
     return (
         <div>
             <h3 className="text-3xl font-semibold text-gray-900 mb-4 text-center">Rates</h3>
-            <div className="flex flex-col md:flex-row gap-6 justify-between">
+            <div className="flex flex-col md:flex-row gap-6 lg:gap-16 justify-center">
                 <div className="rounded-lg bg-gray-100 p-6 shadow-md">
                     <h4 className="text-xl font-semibold text-gray-900 mb-2">Spring Season</h4>
                     <ul className="list-disc list-inside text-gray-700 leading-relaxed">
