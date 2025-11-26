@@ -1,18 +1,18 @@
-import Header from './components/Header'
-import LocationBanner from './components/LocationBanner'
-import ImageCarousel from './components/ImageCarousel'
-import PropertyDescription from './components/PropertyDescription'
-import PropertyDetails from './components/PropertyDetails'
-import LayoutInfo from './components/LayoutInfo'
-import Rates from './components/Rates'
-import AvailabilityCalendar from './components/AvailabilityCalendar'
-import Testimonials from './components/Testimonials'
-import Amenities from './components/Amenities'
-import ContactForm from './components/ContactForm'
-import AboutOwners from './components/AboutOwners'
-import ClassificationCertification from './components/ClassificationCertification'
+import Header from '../components/Header'
+import LocationBanner from '../components/LocationBanner'
+import ImageCarousel from '../components/ImageCarousel'
+import PropertyDescription from '../components/PropertyDescription'
+import PropertyDetails from '../components/PropertyDetails'
+import LayoutInfo from '../components/LayoutInfo'
+import Rates from '../components/Rates'
+import AvailabilityCalendar from '../components/AvailabilityCalendar'
+import Testimonials from '../components/Testimonials'
+import Amenities from '../components/Amenities'
+import ContactForm from '../components/ContactForm'
+import AboutOwners from '../components/AboutOwners'
+import ClassificationCertification from '../components/ClassificationCertification'
 
-function App() {
+export default function Page() {
   // Placeholder images - replace with your actual images
   const images = [
     'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
@@ -66,5 +66,3 @@ function App() {
     </div>
   )
 }
-
-export default App
