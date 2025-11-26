@@ -1,10 +1,14 @@
+import Image from "next/image";
+
 function Header() {
     return (
         <header className="bg-gradient-to-r from-blue-500 to-blue-100 text-white shadow-lg">
             <div className="container mx-auto px-4 py-2">
                 <div className="flex items-center gap-3 md:gap-6">
                     {/* Logo */}
-                    <img
+                    <Image
+                        width={160}      // md:h-40 = 160px
+                        height={160}     // md:w-40 = 160px
                         src="/chalet_la_falaise_logo.png"
                         alt="Chalet la Falaise Logo"
                         className="h-20 w-20 md:h-40 md:w-40 object-contain"

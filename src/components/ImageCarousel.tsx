@@ -1,5 +1,6 @@
+"use client";
 import { useState, useEffect } from 'react'
-
+import Image from "next/image";
 interface ImageCarouselProps {
     images: string[]
 }
@@ -38,7 +39,9 @@ function ImageCarousel({ images }: ImageCarouselProps) {
                     style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}
                 >
                     {images.map((image, index) => (
-                        <img
+                        <Image
+                            width={160}      // md:h-40 = 160px
+                            height={160}     // md:w-40 = 160px
                             key={index}
                             src={image}
                             alt={`Gallery image ${index + 1}`}

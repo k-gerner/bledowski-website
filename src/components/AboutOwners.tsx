@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function AboutOwners() {
     return (
         <div className="bg-white py-16">
@@ -9,7 +11,9 @@ function AboutOwners() {
                 <div className="bg-gray-50 rounded-lg shadow-md p-8">
                     {/* Owner Image */}
                     <div className="mb-6">
-                        <img
+                        <Image
+                            width={160}      // md:h-40 = 160px
+                            height={160}     // md:w-40 = 160px
                             src="/about_the_owners.jpg"
                             alt="Owners"
                             className="w-full h-64 object-cover rounded-lg"
