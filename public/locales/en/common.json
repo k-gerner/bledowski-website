@@ -1,0 +1,19 @@
+{
+  "header": {
+    "title": "Chalet la Falaise",
+    "subtitle": "French culture in the heart of Québec"
+  },
+  "amenities": {
+    "title": "Amenities",
+    "categories": {
+      "theSpace": {
+        "title": "The Space",
+        "items": ["Master bedroom, Queen", "Guest bedroom, Queen"]
+      }
+    }
+  },
+  "locationbanner": {
+    "title": "In the Laurentian Mountains",
+    "subtitle": "Chalet in Mont-Tremblant, Québec"
+  }
+}

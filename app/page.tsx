@@ -27,15 +27,15 @@ export default function Page() {
       <LocationBanner />
 
       {/* Main Content - Flex Column with Gap */}
-      <main className="flex flex-col gap-12 mb-16">
+      <main className="flex flex-col mb-16 gap-12">
         {/* Image Gallery & Description Section */}
-        <section className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-top">
+        <section className="container mx-auto grid px-4 gap-8 items-top md:grid-cols-2">
           <ImageCarousel images={images} />
           <PropertyDescription />
         </section>
 
         {/* Property Details and Layout - 2 Column Grid Below */}
-        <section className="container mx-auto px-4 grid md:grid-cols-2 gap-8">
+        <section className="container mx-auto grid px-4 gap-8 md:grid-cols-2">
           <PropertyDetails />
           <LayoutInfo />
         </section>
@@ -58,7 +58,7 @@ export default function Page() {
         <Testimonials />
 
         {/* About Owners & Contact Form Section - Side by Side */}
-        <section className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-start">
+        <section className="container mx-auto grid px-4 gap-8 items-start md:grid-cols-2">
           <AboutOwners />
           <ContactForm />
         </section>
