@@ -1,24 +1,23 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+import "../i18n/client"; // make sure your i18n client is imported
+
 function PropertyDescription() {
+    const { t } = useTranslation("common");
     return (
         <div className="space-y-4 text-sm">
-            <h2 className="text-3xl font-bold text-gray-900">
-                At a glance
+            <h2 className="font-bold text-3xl text-gray-900">
+                {t("propertydescription.title")}
             </h2>
-            <p className="text-gray-700 leading-relaxed">
-                Chalet la Falaise is a versatile home that equally accommodates short and longer stays.
-                The mezzanine can serve as a kids' playground. Updated baths stress functionality while
-                the living space brings out homey comforts. Located away from hustle and bustle of the
-                pedestrian village, the chalet nonetheless lies close to amenities of the nearby Old Village.
+            <p className="leading-relaxed text-gray-700">
+                {t("propertydescription.p1")}
             </p>
-            <p className="text-gray-700 leading-relaxed">
-                Our comfy three-bedroom home is tucked away on a country lane yet it lies within walking
-                distance to shops and restaurants of the Old Village. Walk 200 m to a municipal bus stop
-                or drive five minutes (4 km) to ski slopes (South Side). There is deeded access to Lake Moore.
-                And the cottage is steps away from bike paths, nature trails, and a skating rink.
+            <p className="leading-relaxed text-gray-700">
+                {t("propertydescription.p2")}
             </p>
-            <p className="text-gray-700 leading-relaxed">
-                A sizable terrace is equipped with a BBQ and a table set for eight (summer only). You have access to a lockable small outdoor shed, perfect for sports equipment.
-                Chalet la Falaise is family-owned. Couples will enjoy their romantic getaways while enough creature comforts await up to two families.
+            <p className="leading-relaxed text-gray-700">
+                {t("propertydescription.p3")}
             </p>
         </div>
     )
