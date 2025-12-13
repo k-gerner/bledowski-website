@@ -1,12 +1,21 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+import "../i18n/client"; // make sure your i18n client is imported
+
 function LocationBanner() {
+    const { t } = useTranslation("common");
+
     return (
-        <section className="py-8 w-full">
-            <h2 className="text-3xl text-black mb-4 text-center">In the Laurentian Mountains</h2>
+        <section className="w-full py-8">
+            <h2 className="text-black text-center mb-4 text-3xl">
+                {t("locationbanner.title")}
+            </h2>
             <p className="text-black text-center">
-                Chalet in Mont-Tremblant, Québec
+                {t("locationbanner.subtitle")}
             </p>
         </section>
-    )
+    );
 }
 
-export default LocationBanner
+export default LocationBanner;

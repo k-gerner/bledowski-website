@@ -1,0 +1,25 @@
+{
+  "header": {
+    "title": "Chalet la Falaise",
+    "subtitle": "Culture française au cœur du Québec"
+  },
+  "amenities": {
+    "title": "Équipements",
+    "categories": {
+      "theSpace": {
+        "title": "L'espace",
+        "items": ["Chambre principale, Queen", "Chambre d'invités, Queen"]
+      }
+    }
+  },    
+  "locationbanner": {
+    "title": "Dans les Laurentides",
+    "subtitle": "Chalet à Mont-Tremblant, Québec"
+  },
+  "propertydescription": {
+    "title": "En un coup d'œil",
+    "p1": "Le Chalet la Falaise est une maison polyvalente qui accueille aussi bien les courts séjours que les plus longs. La mezzanine peut servir de terrain de jeu pour les enfants. Les salles de bain rénovées mettent l'accent sur la fonctionnalité tandis que l'espace de vie apporte tout le confort d'un foyer. Situé à l'écart de l'agitation du village piétonnier, le chalet reste néanmoins proche des commodités du Vieux Village tout proche.",
+    "p2": "Notre confortable maison de trois chambres est nichée dans une ruelle campagnarde mais reste à distance de marche des boutiques et restaurants du Vieux Village. Marchez 200 m jusqu'à un arrêt de bus municipal ou conduisez cinq minutes (4 km) jusqu'aux pistes de ski (côté sud). L'accès au Lac Moore est inclus. De plus, le chalet est à deux pas des pistes cyclables, sentiers de randonnée et d'une patinoire.",
+    "p3": "Une grande terrasse est équipée d'un barbecue et d'une table pour huit personnes (été uniquement). Vous avez accès à un petit cabanon extérieur verrouillable, parfait pour ranger du matériel de sport. Le Chalet la Falaise est une propriété familiale. Les couples apprécieront leur escapade romantique tandis que tout le confort nécessaire attend jusqu'à deux familles."
+  }
+}
