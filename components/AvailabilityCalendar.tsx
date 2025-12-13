@@ -53,11 +53,12 @@ function CalendarEmbed() {
 }
 
 export default function AvailabilityCalendar() {
+  const { t } = useTranslation("common");
   return (
     <div className="bg-white rounded-lg shadow-lg p-4">
       <div className="flex flex-col mb-8 gap-4 md:items-center md:justify-between">
         <h2 className="font-semibold text-center text-3xl text-gray-800 md:text-left">
-          Availability Calendar
+          {t("availabilityCalendar.title")}
         </h2>
         <CalendarEmbed />
       </div>

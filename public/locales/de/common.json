@@ -69,7 +69,7 @@
         ]
       }
     }
-  },  
+  },
   "locationbanner": {
     "title": "In den Laurentiden",
     "subtitle": "Chalet in Mont-Tremblant, Québec"
@@ -116,10 +116,19 @@
       "week": "Woche",
       "month": "Monat"
     },
-    "spring": { "title": "Frühlingssaison" },
-    "summer": { "title": "Sommersaison" },
-    "autumn": { "title": "Herbstsaison" },
-    "ski": { "title": "Skisaison", "duration": "Fünf Monate" }
+    "spring": {
+      "title": "Frühlingssaison"
+    },
+    "summer": {
+      "title": "Sommersaison"
+    },
+    "autumn": {
+      "title": "Herbstsaison"
+    },
+    "ski": {
+      "title": "Skisaison",
+      "duration": "Fünf Monate"
+    }
   },
   "testimonials": {
     "title": "Was unsere Gäste sagen",
@@ -162,6 +171,9 @@
     "paragraphs": [
       "Wir sind eine Familie mit Wohnsitzgeschichte auf beiden Seiten des Atlantiks, die sich über mehrere Jahrzehnte erstreckt. Unsere Liebe zur Natur (Wandern, Radfahren, Kajakfahren, Skifahren, Snowboarden oder Tennis) spiegelt sich in der Ausrüstung wider, die wir in unseren Häusern aufbewahren. Ebenso zeigt sich unsere Freude am Kochen in den reich ausgestatteten Küchen. Die praktischen Maßnahmen, die wir ergriffen haben, um unsere Ausrüstung griffbereit zu halten, sollen Ihren Aufenthalt bereichern. Alle drei Standorte bieten zudem das ganze Jahr über zahlreiche Indoor-Kulturaktivitäten. Planen Sie also Ihre Besuche entsprechend. Wir hoffen, dass Sie Ihren Aufenthalt hier genauso genießen wie wir."
     ]
+  },
+  "availabilityCalendar": {
+    "title": "Verfügbarkeitskalender"
   },
   "contactForm": {
     "title": "Kontaktieren Sie uns",

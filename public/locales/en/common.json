@@ -69,7 +69,7 @@
         ]
       }
     }
-  },  
+  },
   "locationbanner": {
     "title": "In the Laurentian Mountains",
     "subtitle": "Chalet in Mont-Tremblant, Québec"
@@ -85,19 +85,19 @@
     "subtitle": "Built in 2000, our chalet features hardwoods downstairs and Mediterranean accents in the bathrooms. The 1,400 sq. ft. (130 m²) of living space are spread over two floors."
   },
   "layoutinfo": {
-  "title": "Layout",
-  "items": {
-    "lower": {
-      "label": "Lower level",
-      "description": "Spacious, fully equipped kitchen, dining area opening to living room, guest bedroom, and full bathroom"
-    },
-    "upper": {
-      "label": "Upper level",
-      "description": "Loft, master bedroom, children's bedroom, and full bathroom"
-    },
-    "ceiling": "Cathedral ceiling spans the two floors"
-  }
-},
+    "title": "Layout",
+    "items": {
+      "lower": {
+        "label": "Lower level",
+        "description": "Spacious, fully equipped kitchen, dining area opening to living room, guest bedroom, and full bathroom"
+      },
+      "upper": {
+        "label": "Upper level",
+        "description": "Loft, master bedroom, children's bedroom, and full bathroom"
+      },
+      "ceiling": "Cathedral ceiling spans the two floors"
+    }
+  },
   "classification": {
     "superhost": {
       "title": "Superhost",
@@ -172,6 +172,9 @@
       "We are a family with a residence history on both sides of the Atlantic that spans several decades now. Our love of outdoors (hiking, biking, kayaking, skiing, snowboarding or tennis) finds echoes in the gear we keep in our houses. Likewise, you’ll find our joy of cooking reflected in the richly equipped kitchens. The practical steps we took to keep our equipment handy should make your visits richer. And all three locations offer numerous indoor cultural activities year-round. So, plan your visits accordingly. We hope you’ll enjoy staying here as much as we do."
     ]
   },
+  "availabilityCalendar": {
+    "title": "Availability Calendar"
+  },
   "contactForm": {
     "title": "Contact Us",
     "subtitle": "Interested? We'd love to hear from you.",
@@ -187,5 +190,4 @@
   "availabilitycalendar": {
     "lang": "en"
   }
-
 }

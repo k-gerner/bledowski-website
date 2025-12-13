@@ -69,7 +69,7 @@
         ]
       }
     }
-  },  
+  },
   "locationbanner": {
     "title": "Dans les Laurentides",
     "subtitle": "Chalet à Mont-Tremblant, Québec"
@@ -85,19 +85,19 @@
     "subtitle": "Construit en 2000, notre chalet dispose de planchers de bois franc au rez-de-chaussée et de touches méditerranéennes dans les salles de bain. Les 1 400 pi² (130 m²) d’espace de vie sont répartis sur deux étages."
   },
   "layoutinfo": {
-  "title": "Disposition",
-  "items": {
-    "lower": {
-      "label": "Rez-de-chaussée",
-      "description": "Cuisine spacieuse et entièrement équipée, salle à manger ouverte sur le salon, chambre d’amis et salle de bain complète"
-    },
-    "upper": {
-      "label": "Étage",
-      "description": "Mezzanine, chambre principale, chambre d’enfants et salle de bain complète"
-    },
-    "ceiling": "Plafond cathédrale sur deux niveaux"
-  }
-},
+    "title": "Disposition",
+    "items": {
+      "lower": {
+        "label": "Rez-de-chaussée",
+        "description": "Cuisine spacieuse et entièrement équipée, salle à manger ouverte sur le salon, chambre d’amis et salle de bain complète"
+      },
+      "upper": {
+        "label": "Étage",
+        "description": "Mezzanine, chambre principale, chambre d’enfants et salle de bain complète"
+      },
+      "ceiling": "Plafond cathédrale sur deux niveaux"
+    }
+  },
   "classification": {
     "superhost": {
       "title": "Superhôte",
@@ -171,6 +171,9 @@
     "paragraphs": [
       "Nous sommes une famille avec une histoire de résidence des deux côtés de l'Atlantique qui s'étend sur plusieurs décennies. Notre amour pour les activités de plein air (randonnée, vélo, kayak, ski, snowboard ou tennis) se reflète dans le matériel que nous gardons dans nos maisons. De même, vous trouverez notre passion pour la cuisine reflétée dans les cuisines richement équipées. Les mesures pratiques que nous avons prises pour garder notre équipement à portée de main devraient enrichir vos visites. Et les trois lieux offrent de nombreuses activités culturelles intérieures tout au long de l'année. Planifiez donc vos visites en conséquence. Nous espérons que vous apprécierez autant que nous votre séjour ici."
     ]
+  },
+  "availabilityCalendar": {
+    "title": "Calendrier de Disponibilité"
   },
   "contactForm": {
     "title": "Contactez-nous",

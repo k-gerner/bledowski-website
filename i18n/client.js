@@ -13,7 +13,7 @@ if (!i18n.isInitialized) {
     i18n
         .use(initReactI18next)
         .init({
-            lng: "en",
+            lng: "en", // Always start with 'en' on server to avoid hydration mismatch
             fallbackLng: "en",
             interpolation: { escapeValue: false },
             resources: {

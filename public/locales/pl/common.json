@@ -116,10 +116,19 @@
       "week": "Tydzień",
       "month": "Miesiąc"
     },
-    "spring": { "title": "Sezon wiosenny" },
-    "summer": { "title": "Sezon letni" },
-    "autumn": { "title": "Sezon jesienny" },
-    "ski": { "title": "Sezon narciarski", "duration": "Pięć miesięcy" }
+    "spring": {
+      "title": "Sezon wiosenny"
+    },
+    "summer": {
+      "title": "Sezon letni"
+    },
+    "autumn": {
+      "title": "Sezon jesienny"
+    },
+    "ski": {
+      "title": "Sezon narciarski",
+      "duration": "Pięć miesięcy"
+    }
   },
   "testimonials": {
     "title": "Co mówią nasi goście",
@@ -162,6 +171,9 @@
     "paragraphs": [
       "Jesteśmy rodziną z historią zamieszkania po obu stronach Atlantyku, sięgającą kilku dekad. Nasza miłość do aktywności na świeżym powietrzu (piesze wycieczki, rowery, kajaki, narty, snowboard lub tenis) znajduje odzwierciedlenie w sprzęcie, który przechowujemy w naszych domach. Podobnie nasza pasja do gotowania odbija się w bogato wyposażonych kuchniach. Praktyczne kroki, które podjęliśmy, aby sprzęt był pod ręką, powinny wzbogacić Wasze wizyty. Wszystkie trzy lokalizacje oferują liczne zajęcia kulturalne w pomieszczeniach przez cały rok. Planujcie więc swoje wizyty odpowiednio. Mamy nadzieję, że pobyt tutaj sprawi Wam tyle przyjemności, co nam."
     ]
+  },
+  "availabilityCalendar": {
+    "title": "Kalendarz Dostępności"
   },
   "contactForm": {
     "title": "Skontaktuj się z nami",

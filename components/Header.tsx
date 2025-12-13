@@ -2,6 +2,7 @@
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
 import { Advent_Pro } from "next/font/google";
+import { useEffect, useState } from "react";
 import "../i18n/client";
 const adventPro = Advent_Pro({
     subsets: ["latin"],
@@ -10,8 +11,23 @@ const adventPro = Advent_Pro({
 
 function Header() {
     const { t, i18n } = useTranslation("common");
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+        // Load saved language from localStorage on mount
+        const savedLanguage = localStorage.getItem('language');
+        if (savedLanguage && savedLanguage !== i18n.language) {
+            i18n.changeLanguage(savedLanguage);
+        }
+    }, [i18n]);
+
     const changeLanguage = (lng: string | undefined) => {
-        i18n.changeLanguage(lng);
+        if (lng) {
+            i18n.changeLanguage(lng);
+            // Save language preference to localStorage
+            localStorage.setItem('language', lng);
+        }
     };
     return (
         <header className="bg-gradient-to-r from-blue-500 to-blue-200 shadow-lg text-white">
