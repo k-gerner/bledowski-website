@@ -32,11 +32,11 @@ export const metadata = {
     "Quebec vacation home",
   ],
   openGraph: {
-    title: "Your Property Name — Luxury Rental in Mont Tremblant, Quebec",
+    title: "Chalet La Falaise — Luxury Rental in Mont Tremblant, Quebec",
     description:
       "Spacious and modern vacation rental with premium features, perfect for families, couples, and remote workers.",
     url: "https://bledowski-website.vercel.app",
-    siteName: "Your Property Name",
+    siteName: "Chalet La Falaise",
     images: [
       {
         url: "https://your-main-image.jpg",
