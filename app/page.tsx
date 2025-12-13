@@ -15,10 +15,33 @@ import ClassificationCertification from '../components/ClassificationCertificati
 export default function Page() {
   // Placeholder images - replace with your actual images
   const images = [
-    'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
-    'https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=800',
-    'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800',
-    'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800',
+    "/carousel/interiorHouse1.jpg",
+    "/carousel/interiorHouse2.jpg",
+    "/carousel/PAR_6800And8more.jpg",
+    "/carousel/PAR_6827And8more.jpg",
+    "/carousel/PAR_6845And8more.jpg",
+    "/carousel/PAR_6854And8more.jpg",
+    "/carousel/PAR_6863And8more.jpg",
+    "/carousel/PAR_6872And8more.jpg",
+    "/carousel/PAR_6881And8more.jpg",
+    "/carousel/PAR_6890And8more.jpg",
+    "/carousel/PAR_6899And8more.jpg",
+    "/carousel/PAR_6908And8more.jpg",
+    "/carousel/PAR_6926And8more.jpg",
+    "/carousel/PAR_6944And8more.jpg",
+    "/carousel/PAR_6953And8more.jpg",
+    "/carousel/PAR_6962And8more.jpg",
+    "/carousel/PAR_6971And8more.jpg",
+    "/carousel/PAR_6989And8more.jpg",
+    "/carousel/PAR_6998And8more.jpg",
+    "/carousel/PAR_7007And8more.jpg",
+    "/carousel/PAR_7016And8more.jpg",
+    "/carousel/PAR_7043And8more.jpg",
+    "/carousel/PAR_7052And8more.jpg",
+    "/carousel/PAR_7061And8more.jpg",
+    "/carousel/PAR_7070And8more.jpg",
+    "/carousel/PAR_7088And8more.jpg",
+    "/carousel/PB270019.JPG",
   ]
 
   return (
