@@ -1,15 +1,181 @@
 {
   "header": {
     "title": "Chalet la Falaise",
-    "subtitle": "French culture in the heart of Québec"
+    "subtitle": "Französische Kultur im Herzen von Québec"
   },
   "amenities": {
-    "title": "Amenities",
+    "title": "Ausstattung",
     "categories": {
       "theSpace": {
-        "title": "The Space",
-        "items": ["Master bedroom, Queen", "Guest bedroom, Queen"]
+        "title": "Der Raum",
+        "items": [
+          "Hauptschlafzimmer, Queen",
+          "Gästezimmer, Queen",
+          "Kinderzimmer, 2 Einzelbetten",
+          "Wohnzimmer, Schlafsofa",
+          "Loft, Schlafsofa",
+          "Bettwäsche, Decken, Handtücher",
+          "Voll ausgestattete Küche",
+          "Esstisch für 8 Personen",
+          "Frühstückstheke für 2 Personen",
+          "Badezimmer unten, Dusche",
+          "Badezimmer oben, Badewanne mit Dusche"
+        ]
+      },
+      "outside": {
+        "title": "Außenbereich",
+        "items": [
+          "Terrasse",
+          "Gartenmöbel (Sommer)",
+          "Grillset (Sommer)",
+          "Veranda rundherum",
+          "Angebauter Schuppen",
+          "2 reservierte Parkplätze",
+          "Straßenparkplatz (Sommer)",
+          "Steckdosen für Heizgeräte (120V)",
+          "Zeitschaltuhr für Außenbeleuchtung",
+          "Schneeräumdienst"
+        ]
+      },
+      "inside": {
+        "title": "Innenbereich",
+        "items": [
+          "Kamin",
+          "Schornstein",
+          "Kathedralendecke",
+          "Individuelle Thermostate",
+          "Elektrische Heizung",
+          "Luftentfeuchter und Luftaustauscher",
+          "Klimaanlage",
+          "Waschmaschine, Trockner",
+          "Bügelbrett",
+          "Haartrockner",
+          "Duschgel, Seife, Shampoo"
+        ]
+      },
+      "bonus": {
+        "title": "Bonus",
+        "items": [
+          "Kabelfernsehen",
+          "HDTV, Blu-ray, CD",
+          "Schreibtisch für Home-Office",
+          "Telefon-Ladestation",
+          "Telefon, unbegrenzte Anrufe USA/Kanada",
+          "Internet Wi-Fi",
+          "Drucker/Kopierer/Fax/Scanner",
+          "Kinderbettmatratze, Hochstuhl",
+          "Keine Haustiere",
+          "Rauchen verboten"
+        ]
       }
     }
+  },  
+  "locationbanner": {
+    "title": "In den Laurentiden",
+    "subtitle": "Chalet in Mont-Tremblant, Québec"
+  },
+  "propertydescription": {
+    "title": "Auf einen Blick",
+    "p1": "Chalet la Falaise ist ein vielseitiges Zuhause, das sowohl für kurze als auch längere Aufenthalte geeignet ist. Das Mezzanin kann als Kinderspielbereich dienen. Modernisierte Badezimmer betonen die Funktionalität, während der Wohnbereich gemütliche Komfort bietet. Abseits des Trubels des Fußgängerortes gelegen, befindet sich das Chalet dennoch in der Nähe der Annehmlichkeiten des nahegelegenen Alten Dorfes.",
+    "p2": "Unser gemütliches Drei-Schlafzimmer-Haus liegt an einer Landstraße, dennoch sind Geschäfte und Restaurants des Alten Dorfes zu Fuß erreichbar. 200 m zum städtischen Bus, oder fünf Minuten Fahrt (4 km) zu den Skipisten (Südseite). Es gibt ein gesichertes Zugang zum Lake Moore. Das Cottage liegt nur wenige Schritte von Radwegen, Naturpfaden und einer Eisbahn entfernt.",
+    "p3": "Eine großzügige Terrasse ist mit einem Grill und einem Tisch für acht Personen ausgestattet (nur im Sommer). Sie haben Zugang zu einem abschließbaren kleinen Außenschuppen, ideal für Sportgeräte. Chalet la Falaise ist familiengeführt. Paare genießen romantische Auszeiten, während bis zu zwei Familien alle Annehmlichkeiten vorfinden."
+  },
+  "propertydetails": {
+    "title": "Immobiliendetails",
+    "subtitle": "Gebaut im Jahr 2000, verfügt unser Chalet über Holzböden im Erdgeschoss und mediterrane Akzente in den Badezimmern. Die 130 m² Wohnfläche erstrecken sich über zwei Etagen."
+  },
+  "layoutinfo": {
+    "title": "Grundriss",
+    "items": {
+      "lower": {
+        "label": "Unteres Stockwerk",
+        "description": "Geräumige, voll ausgestattete Küche, Essbereich mit Zugang zum Wohnzimmer, Gästezimmer und komplettes Badezimmer"
+      },
+      "upper": {
+        "label": "Oberes Stockwerk",
+        "description": "Loft, Hauptschlafzimmer, Kinderzimmer und komplettes Badezimmer"
+      },
+      "ceiling": "Kathedralendecke erstreckt sich über zwei Etagen"
+    }
+  },
+  "classification": {
+    "superhost": {
+      "title": "Superhost",
+      "description": "Superhost. Die Eigentümer von Chalet la Falaise haben die Auszeichnung “Superhost” von Airbnb erhalten. Superhosts sind erfahrene Gastgeber, die außergewöhnlichen Service für ihre Gäste bieten."
+    },
+    "certificate": {
+      "title": "Zertifikat der Provinz Québec",
+      "description": "Klassifizierungszertifikat. Chalet la Falaise ist von der Corporation de l’industrie touristique du Québec (CITQ) akkreditiert. Unser Chalet wurde von der CITQ als „touristisches Ferienhaus“ zertifiziert (Nr. 296435)."
+    }
+  },
+  "rates": {
+    "title": "Preise",
+    "labels": {
+      "weekend": "Wochenendnacht",
+      "weeknight": "Wochennacht",
+      "week": "Woche",
+      "month": "Monat"
+    },
+    "spring": { "title": "Frühlingssaison" },
+    "summer": { "title": "Sommersaison" },
+    "autumn": { "title": "Herbstsaison" },
+    "ski": { "title": "Skisaison", "duration": "Fünf Monate" }
+  },
+  "testimonials": {
+    "title": "Was unsere Gäste sagen",
+    "items": [
+      {
+        "quote": "Chalet la Falaise übertraf all unsere Erwartungen! Die Lage ist perfekt, nah an allem und dennoch ruhig. Unsere Familie hatte hier einen wunderbaren Winterurlaub.",
+        "name": "Sarah Johnson",
+        "location": "Boston, MA"
+      },
+      {
+        "quote": "Wunderschönes Anwesen mit atemberaubender Aussicht. Das Mezzanin war perfekt für unsere Kinder, und die Küche hatte alles, was wir brauchten. Wir kommen definitiv wieder!",
+        "name": "Marc Dubois",
+        "location": "Montreal, QC"
+      },
+      {
+        "quote": "Ein verstecktes Juwel in Mont-Tremblant! Der Spaziergang ins Alte Dorf war herrlich, und der Zugang zum Lake Moore war ein Bonus. Sehr empfehlenswert für Paare oder Familien.",
+        "name": "Emily Chen",
+        "location": "Toronto, ON"
+      },
+      {
+        "quote": "Das Chalet war makellos und gut gepflegt. Perfekt für unseren Skiurlaub – nur 5 Minuten zu den Pisten! Die Terrasse war ideal für unseren Morgenkaffee.",
+        "name": "David Martinez",
+        "location": "New York, NY"
+      },
+      {
+        "quote": "Wir liebten den authentischen französisch-kanadischen Charme. Die Kathedralendecke ist wunderschön, und die Betten waren sehr bequem. Wir planen bereits unseren nächsten Aufenthalt!",
+        "name": "Lisa Anderson",
+        "location": "Chicago, IL"
+      },
+      {
+        "quote": "Tolles Preis-Leistungs-Verhältnis. Der Außenschuppen war perfekt zur Aufbewahrung unserer Skiausrüstung, und die Lage ist unschlagbar. Die Eigentümer waren sehr zuverlässig.",
+        "name": "Pierre Lefebvre",
+        "location": "Quebec City, QC"
+      }
+    ]
+  },
+  "aboutOwners": {
+    "title": "Über die Eigentümer",
+    "imageAlt": "Eigentümer",
+    "paragraphs": [
+      "Wir sind eine Familie mit Wohnsitzgeschichte auf beiden Seiten des Atlantiks, die sich über mehrere Jahrzehnte erstreckt. Unsere Liebe zur Natur (Wandern, Radfahren, Kajakfahren, Skifahren, Snowboarden oder Tennis) spiegelt sich in der Ausrüstung wider, die wir in unseren Häusern aufbewahren. Ebenso zeigt sich unsere Freude am Kochen in den reich ausgestatteten Küchen. Die praktischen Maßnahmen, die wir ergriffen haben, um unsere Ausrüstung griffbereit zu halten, sollen Ihren Aufenthalt bereichern. Alle drei Standorte bieten zudem das ganze Jahr über zahlreiche Indoor-Kulturaktivitäten. Planen Sie also Ihre Besuche entsprechend. Wir hoffen, dass Sie Ihren Aufenthalt hier genauso genießen wie wir."
+    ]
+  },
+  "contactForm": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Interessiert? Wir würden uns freuen, von Ihnen zu hören.",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "submit": "Senden",
+    "success": "Nachricht gesendet! Ich werde mich bald bei Ihnen melden.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
+  },
+  "availabilitycalendar": {
+    "lang": "de"
   }
 }

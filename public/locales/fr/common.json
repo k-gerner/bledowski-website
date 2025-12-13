@@ -7,11 +7,69 @@
     "title": "Équipements",
     "categories": {
       "theSpace": {
-        "title": "L'espace",
-        "items": ["Chambre principale, Queen", "Chambre d'invités, Queen"]
+        "title": "L’espace",
+        "items": [
+          "Chambre principale, lit queen",
+          "Chambre d’amis, lit queen",
+          "Chambre d’enfants, 2 lits simples",
+          "Salon, canapé convertible",
+          "Mezzanine, canapé convertible",
+          "Linge de maison, couvertures, serviettes",
+          "Cuisine entièrement équipée",
+          "Table à manger pour 8 personnes",
+          "Comptoir déjeuner pour 2",
+          "Salle de bain au rez-de-chaussée, douche",
+          "Salle de bain à l’étage, baignoire-douche"
+        ]
+      },
+      "outside": {
+        "title": "Extérieur",
+        "items": [
+          "Terrasse",
+          "Mobilier de patio (été)",
+          "BBQ (été)",
+          "Galerie entourant la maison",
+          "Remise attenante",
+          "2 espaces de stationnement réservés",
+          "Stationnement sur rue (été)",
+          "Prises pour chauffe-moteur (120 V)",
+          "Éclairage extérieur avec minuterie",
+          "Service de déneigement"
+        ]
+      },
+      "inside": {
+        "title": "Intérieur",
+        "items": [
+          "Foyer",
+          "Cheminée",
+          "Plafond cathédrale",
+          "Thermostats individuels",
+          "Chauffage électrique",
+          "Déshumidificateur et échangeur d’air",
+          "Climatisation",
+          "Laveuse, sécheuse",
+          "Planche à repasser",
+          "Séchoirs à cheveux",
+          "Gel douche, savon, shampooing"
+        ]
+      },
+      "bonus": {
+        "title": "Bonus",
+        "items": [
+          "Télévision par câble",
+          "Téléviseur HD, Blu-ray, CD",
+          "Bureau à domicile",
+          "Station de recharge pour téléphone",
+          "Téléphone, appels illimités Canada / États-Unis",
+          "Internet Wi-Fi",
+          "Imprimante / photocopieur / télécopieur / numériseur",
+          "Matelas pour enfants, chaise haute",
+          "Animaux non admis",
+          "Interdiction de fumer"
+        ]
       }
     }
-  },    
+  },  
   "locationbanner": {
     "title": "Dans les Laurentides",
     "subtitle": "Chalet à Mont-Tremblant, Québec"
@@ -21,5 +79,112 @@
     "p1": "Le Chalet la Falaise est une maison polyvalente qui accueille aussi bien les courts séjours que les plus longs. La mezzanine peut servir de terrain de jeu pour les enfants. Les salles de bain rénovées mettent l'accent sur la fonctionnalité tandis que l'espace de vie apporte tout le confort d'un foyer. Situé à l'écart de l'agitation du village piétonnier, le chalet reste néanmoins proche des commodités du Vieux Village tout proche.",
     "p2": "Notre confortable maison de trois chambres est nichée dans une ruelle campagnarde mais reste à distance de marche des boutiques et restaurants du Vieux Village. Marchez 200 m jusqu'à un arrêt de bus municipal ou conduisez cinq minutes (4 km) jusqu'aux pistes de ski (côté sud). L'accès au Lac Moore est inclus. De plus, le chalet est à deux pas des pistes cyclables, sentiers de randonnée et d'une patinoire.",
     "p3": "Une grande terrasse est équipée d'un barbecue et d'une table pour huit personnes (été uniquement). Vous avez accès à un petit cabanon extérieur verrouillable, parfait pour ranger du matériel de sport. Le Chalet la Falaise est une propriété familiale. Les couples apprécieront leur escapade romantique tandis que tout le confort nécessaire attend jusqu'à deux familles."
+  },
+  "propertydetails": {
+    "title": "Détails de la propriété",
+    "subtitle": "Construit en 2000, notre chalet dispose de planchers de bois franc au rez-de-chaussée et de touches méditerranéennes dans les salles de bain. Les 1 400 pi² (130 m²) d’espace de vie sont répartis sur deux étages."
+  },
+  "layoutinfo": {
+  "title": "Disposition",
+  "items": {
+    "lower": {
+      "label": "Rez-de-chaussée",
+      "description": "Cuisine spacieuse et entièrement équipée, salle à manger ouverte sur le salon, chambre d’amis et salle de bain complète"
+    },
+    "upper": {
+      "label": "Étage",
+      "description": "Mezzanine, chambre principale, chambre d’enfants et salle de bain complète"
+    },
+    "ceiling": "Plafond cathédrale sur deux niveaux"
+  }
+},
+  "classification": {
+    "superhost": {
+      "title": "Superhôte",
+      "description": "Superhôte. Les propriétaires du Chalet la Falaise détiennent la distinction « Superhôte » décernée par Airbnb. Les Superhôtes sont des hôtes expérimentés qui offrent un service exceptionnel à leurs voyageurs."
+    },
+    "certificate": {
+      "title": "Certification de la province de Québec",
+      "description": "Certification de classification. Le Chalet la Falaise est accrédité par la Corporation de l’industrie touristique du Québec (CITQ). Notre chalet est certifié « résidence de tourisme » par la CITQ (no 296435)."
+    }
+  },
+  "rates": {
+    "title": "Tarifs",
+    "labels": {
+      "weekend": "Nuit de fin de semaine",
+      "weeknight": "Nuit en semaine",
+      "week": "Semaine",
+      "month": "Mois"
+    },
+    "spring": {
+      "title": "Saison du printemps"
+    },
+    "summer": {
+      "title": "Saison estivale"
+    },
+    "autumn": {
+      "title": "Saison d’automne"
+    },
+    "ski": {
+      "title": "Saison de ski",
+      "duration": "Cinq mois"
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos invités",
+    "items": [
+      {
+        "quote": "Le chalet la Falaise a dépassé toutes nos attentes ! L’emplacement est parfait, proche de tout mais très paisible. Notre famille a passé des vacances d’hiver extraordinaires.",
+        "name": "Sarah Johnson",
+        "location": "Boston, MA"
+      },
+      {
+        "quote": "Magnifique propriété avec une vue superbe. La mezzanine était parfaite pour nos enfants et la cuisine était entièrement équipée. Nous reviendrons sans hésiter !",
+        "name": "Marc Dubois",
+        "location": "Montréal, QC"
+      },
+      {
+        "quote": "Un véritable bijou caché à Mont-Tremblant ! La promenade jusqu’au Vieux-Village est charmante et l’accès au lac Moore est un vrai plus. Idéal pour couples ou familles.",
+        "name": "Emily Chen",
+        "location": "Toronto, ON"
+      },
+      {
+        "quote": "Le chalet était impeccable et très bien entretenu. Parfait pour notre séjour de ski – à seulement 5 minutes des pistes ! La terrasse était idéale pour le café du matin.",
+        "name": "David Martinez",
+        "location": "New York, NY"
+      },
+      {
+        "quote": "Nous avons adoré le charme authentique canadien-français. Le plafond cathédrale est magnifique et les lits étaient très confortables. Nous planifions déjà notre prochain séjour !",
+        "name": "Lisa Anderson",
+        "location": "Chicago, IL"
+      },
+      {
+        "quote": "Excellent rapport qualité-prix. Le cabanon extérieur était parfait pour ranger notre équipement de ski et l’emplacement est idéal. Les propriétaires étaient très réactifs.",
+        "name": "Pierre Lefebvre",
+        "location": "Québec, QC"
+      }
+    ]
+  },
+  "aboutOwners": {
+    "title": "À propos des propriétaires",
+    "imageAlt": "Propriétaires",
+    "paragraphs": [
+      "Nous sommes une famille avec une histoire de résidence des deux côtés de l'Atlantique qui s'étend sur plusieurs décennies. Notre amour pour les activités de plein air (randonnée, vélo, kayak, ski, snowboard ou tennis) se reflète dans le matériel que nous gardons dans nos maisons. De même, vous trouverez notre passion pour la cuisine reflétée dans les cuisines richement équipées. Les mesures pratiques que nous avons prises pour garder notre équipement à portée de main devraient enrichir vos visites. Et les trois lieux offrent de nombreuses activités culturelles intérieures tout au long de l'année. Planifiez donc vos visites en conséquence. Nous espérons que vous apprécierez autant que nous votre séjour ici."
+    ]
+  },
+  "contactForm": {
+    "title": "Contactez-nous",
+    "subtitle": "Intéressé(e) ? Nous serions ravis de vous entendre.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "message": "Message",
+    "submit": "Envoyer",
+    "success": "Message envoyé ! Je vous répondrai bientôt.",
+    "error": "Une erreur est survenue. Veuillez réessayer plus tard."
+  },
+  "availabilitycalendar": {
+    "lang": "fr"
   }
 }

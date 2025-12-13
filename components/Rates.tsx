@@ -1,48 +1,71 @@
+"use client";
 
+import { useTranslation } from "react-i18next";
+import "../i18n/client";
 
 function Rates() {
+    const { t } = useTranslation("common");
+
     return (
         <div>
-            <h3 className="text-3xl font-semibold text-gray-900 mb-4 text-center">Rates</h3>
-            <div className="flex flex-col md:flex-row gap-6 lg:gap-16 justify-center">
-                <div className="rounded-lg bg-gray-100 p-6 shadow-md">
-                    <h4 className="text-xl font-semibold text-gray-900 mb-2">Spring Season</h4>
-                    <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-                        <li className="list-none">Weekend night: $210</li>
-                        <li className="list-none">Weeknight: $165</li>
-                        <li className="list-none">Week: $900</li>
-                        <li className="list-none">Month: $2,580</li>
+            <h3 className="font-semibold text-center mb-4 text-3xl text-gray-900">
+                {t("rates.title")}
+            </h3>
+
+            <div className="flex flex-col gap-6 justify-center md:flex-row lg:gap-16">
+                {/* Spring */}
+                <div className="rounded-lg bg-gray-100 shadow-md p-6">
+                    <h4 className="font-semibold text-xl mb-2 text-gray-900">
+                        {t("rates.spring.title")}
+                    </h4>
+                    <ul className="leading-relaxed text-gray-700">
+                        <li className="list-none">{t("rates.labels.weekend")}: $210</li>
+                        <li className="list-none">{t("rates.labels.weeknight")}: $165</li>
+                        <li className="list-none">{t("rates.labels.week")}: $900</li>
+                        <li className="list-none">{t("rates.labels.month")}: $2,580</li>
                     </ul>
                 </div>
-                <div className="rounded-lg bg-gray-100 p-6 shadow-md">
-                    <h4 className="text-xl font-semibold text-gray-900 mb-2">Summer Season</h4>
-                    <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-                        <li className="list-none">Weekend night: $265</li>
-                        <li className="list-none">Weeknight: $250</li>
-                        <li className="list-none">Week: $1,265</li>
-                        <li className="list-none">Month: $3,565</li>
+
+                {/* Summer */}
+                <div className="rounded-lg bg-gray-100 shadow-md p-6">
+                    <h4 className="font-semibold text-xl mb-2 text-gray-900">
+                        {t("rates.summer.title")}
+                    </h4>
+                    <ul className="leading-relaxed text-gray-700">
+                        <li className="list-none">{t("rates.labels.weekend")}: $265</li>
+                        <li className="list-none">{t("rates.labels.weeknight")}: $250</li>
+                        <li className="list-none">{t("rates.labels.week")}: $1,265</li>
+                        <li className="list-none">{t("rates.labels.month")}: $3,565</li>
                     </ul>
                 </div>
-                <div className="rounded-lg bg-gray-100 p-6 shadow-md">
-                    <h4 className="text-xl font-semibold text-gray-900 mb-2">Autumn Season</h4>
-                    <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-                        <li className="list-none">Weekend night: $225</li>
-                        <li className="list-none">Weeknight: $185</li>
-                        <li className="list-none">Week: $980</li>
-                        <li className="list-none">Month: $2,800</li>
+
+                {/* Autumn */}
+                <div className="rounded-lg bg-gray-100 shadow-md p-6">
+                    <h4 className="font-semibold text-xl mb-2 text-gray-900">
+                        {t("rates.autumn.title")}
+                    </h4>
+                    <ul className="leading-relaxed text-gray-700">
+                        <li className="list-none">{t("rates.labels.weekend")}: $225</li>
+                        <li className="list-none">{t("rates.labels.weeknight")}: $185</li>
+                        <li className="list-none">{t("rates.labels.week")}: $980</li>
+                        <li className="list-none">{t("rates.labels.month")}: $2,800</li>
                     </ul>
                 </div>
-                <div className="rounded-lg bg-gray-100 p-6 shadow-md">
-                    <h4 className="text-xl font-semibold text-gray-900 mb-2">Ski Season</h4>
-                    <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-                        <li className="list-none">Five months: $16,000</li>
+
+                {/* Ski */}
+                <div className="rounded-lg bg-gray-100 shadow-md p-6">
+                    <h4 className="font-semibold text-xl mb-2 text-gray-900">
+                        {t("rates.ski.title")}
+                    </h4>
+                    <ul className="leading-relaxed text-gray-700">
+                        <li className="list-none">
+                            {t("rates.ski.duration")}: $16,000
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    )
-
+    );
 }
 
-
-export default Rates
+export default Rates;

@@ -8,10 +8,68 @@
     "categories": {
       "theSpace": {
         "title": "The Space",
-        "items": ["Master bedroom, Queen", "Guest bedroom, Queen"]
+        "items": [
+          "Master bedroom, Queen",
+          "Guest bedroom, Queen",
+          "Children bedroom, 2 singles",
+          "Living room, convertible sofa",
+          "Loft, convertible sofa",
+          "Linens, covers, blankets, towels",
+          "Fully equipped kitchen",
+          "Dinner table for 8",
+          "Breakfast bar for 2",
+          "Bath downstairs, shower",
+          "Bath upstairs, shower tub"
+        ]
+      },
+      "outside": {
+        "title": "Outside",
+        "items": [
+          "Terrace patio",
+          "Patio furniture (summer)",
+          "Grill set (summer)",
+          "Wrap-around porch",
+          "Attached shed",
+          "2 reserved parking spaces",
+          "Street parking (summer)",
+          "Outlets for block heaters (120V)",
+          "Outdoor lighting timer",
+          "Snow removal service"
+        ]
+      },
+      "inside": {
+        "title": "Inside",
+        "items": [
+          "Fireplace",
+          "Chimney",
+          "Cathedral ceiling",
+          "Individual thermostats",
+          "Electric heating",
+          "Dehumidifier and air exchanger",
+          "Air conditioning",
+          "Washer, dryer",
+          "Ironing board",
+          "Hair dryers",
+          "Shower gel, soap, shampoo"
+        ]
+      },
+      "bonus": {
+        "title": "Bonus",
+        "items": [
+          "Cable TV",
+          "HDTV, Blu-ray, CD",
+          "Home office desk",
+          "Phone charging station",
+          "Phone, unlimited calling US/Canada",
+          "Internet Wi-Fi",
+          "Printer/copier/fax/scanner",
+          "Kids’ mattress, high chair",
+          "No pets",
+          "No smoking"
+        ]
       }
     }
-  },
+  },  
   "locationbanner": {
     "title": "In the Laurentian Mountains",
     "subtitle": "Chalet in Mont-Tremblant, Québec"
@@ -21,5 +79,113 @@
     "p1": "Chalet la Falaise is a versatile home that equally accommodates short and longer stays. The mezzanine can serve as a kids' playground. Updated baths stress functionality while the living space brings out homey comforts. Located away from hustle and bustle of the pedestrian village, the chalet nonetheless lies close to amenities of the nearby Old Village.",
     "p2": "Our comfy three-bedroom home is tucked away on a country lane yet it lies within walking distance to shops and restaurants of the Old Village. Walk 200 m to a municipal bus stop or drive five minutes (4 km) to ski slopes (South Side). There is deeded access to Lake Moore. And the cottage is steps away from bike paths, nature trails, and a skating rink.",
     "p3": "A sizable terrace is equipped with a BBQ and a table set for eight (summer only). You have access to a lockable small outdoor shed, perfect for sports equipment. Chalet la Falaise is family-owned. Couples will enjoy their romantic getaways while enough creature comforts await up to two families."
+  },
+  "propertydetails": {
+    "title": "Property Details",
+    "subtitle": "Built in 2000, our chalet features hardwoods downstairs and Mediterranean accents in the bathrooms. The 1,400 sq. ft. (130 m²) of living space are spread over two floors."
+  },
+  "layoutinfo": {
+  "title": "Layout",
+  "items": {
+    "lower": {
+      "label": "Lower level",
+      "description": "Spacious, fully equipped kitchen, dining area opening to living room, guest bedroom, and full bathroom"
+    },
+    "upper": {
+      "label": "Upper level",
+      "description": "Loft, master bedroom, children's bedroom, and full bathroom"
+    },
+    "ceiling": "Cathedral ceiling spans the two floors"
   }
+},
+  "classification": {
+    "superhost": {
+      "title": "Superhost",
+      "description": "Superhost. Chalet la Falaise owners hold the distinction of a “Superhost” awarded by Airbnb, the home-sharing platform. Superhosts are experienced hosts who provide extraordinary service for their guests."
+    },
+    "certificate": {
+      "title": "Certificate of Quebec Province",
+      "description": "Classification certification. Chalet la Falaise is accredited by the Corporation de l’industrie touristique du Québec (CITQ). Our chalet has been certified a “tourist home” by CITQ (No. 296435)."
+    }
+  },
+  "rates": {
+    "title": "Rates",
+    "labels": {
+      "weekend": "Weekend night",
+      "weeknight": "Weeknight",
+      "week": "Week",
+      "month": "Month"
+    },
+    "spring": {
+      "title": "Spring Season"
+    },
+    "summer": {
+      "title": "Summer Season"
+    },
+    "autumn": {
+      "title": "Autumn Season"
+    },
+    "ski": {
+      "title": "Ski Season",
+      "duration": "Five months"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Guests Say",
+    "items": [
+      {
+        "quote": "Chalet la Falaise exceeded all our expectations! The location is perfect, close to everything yet peaceful. Our family had an amazing winter vacation here.",
+        "name": "Sarah Johnson",
+        "location": "Boston, MA"
+      },
+      {
+        "quote": "Beautiful property with stunning views. The mezzanine was perfect for our kids, and the kitchen had everything we needed. We'll definitely be back!",
+        "name": "Marc Dubois",
+        "location": "Montreal, QC"
+      },
+      {
+        "quote": "A hidden gem in Mont-Tremblant! The walk to the Old Village was lovely, and having access to Lake Moore was a bonus. Highly recommend for couples or families.",
+        "name": "Emily Chen",
+        "location": "Toronto, ON"
+      },
+      {
+        "quote": "The chalet was spotless and well-maintained. Perfect for our ski trip – only 5 minutes to the slopes! The terrace was great for our morning coffee.",
+        "name": "David Martinez",
+        "location": "New York, NY"
+      },
+      {
+        "quote": "We loved the authentic French-Canadian charm. The cathedral ceiling is gorgeous, and the beds were so comfortable. Already planning our next stay!",
+        "name": "Lisa Anderson",
+        "location": "Chicago, IL"
+      },
+      {
+        "quote": "Great value for money. The outdoor shed was perfect for storing our ski equipment, and the location can't be beat. The owners were very responsive.",
+        "name": "Pierre Lefebvre",
+        "location": "Quebec City, QC"
+      }
+    ]
+  },
+  "aboutOwners": {
+    "title": "About the Owners",
+    "imageAlt": "Owners",
+    "paragraphs": [
+      "We are a family with a residence history on both sides of the Atlantic that spans several decades now. Our love of outdoors (hiking, biking, kayaking, skiing, snowboarding or tennis) finds echoes in the gear we keep in our houses. Likewise, you’ll find our joy of cooking reflected in the richly equipped kitchens. The practical steps we took to keep our equipment handy should make your visits richer. And all three locations offer numerous indoor cultural activities year-round. So, plan your visits accordingly. We hope you’ll enjoy staying here as much as we do."
+    ]
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "subtitle": "Interested? We'd love to hear from you.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Submit",
+    "success": "Message sent! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again later."
+  },
+  "availabilitycalendar": {
+    "lang": "en"
+  }
+
 }

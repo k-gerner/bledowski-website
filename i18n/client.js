@@ -5,8 +5,8 @@ import { initReactI18next } from "react-i18next";
 
 import en from "../public/locales/en/common.json";
 import fr from "../public/locales/fr/common.json";
-// import pl from "../public/locales/pl/common.json";
-// import de from "../public/locales/de/common.json";
+import pl from "../public/locales/pl/common.json";
+import de from "../public/locales/de/common.json";
 
 // Prevent re-initializing during HMR or Fast Refresh
 if (!i18n.isInitialized) {
@@ -18,9 +18,9 @@ if (!i18n.isInitialized) {
             interpolation: { escapeValue: false },
             resources: {
                 en: { common: en },
-                fr: { common: fr }
-                // pl: { common: pl },
-                // de: { common: de }
+                fr: { common: fr },
+                pl: { common: pl },
+                de: { common: de }
             }
         });
 }

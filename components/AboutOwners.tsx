@@ -1,43 +1,42 @@
+"use client";
+
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
+import "../i18n/client";
 
 function AboutOwners() {
+    const { t } = useTranslation("common");
+    const paragraphs = t("aboutOwners.paragraphs", { returnObjects: true }) as string[];
+
     return (
         <div className="bg-white py-16">
-            <div className="container mx-auto px-4 max-w-2xl">
-                <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">
-                    About the Owners
+            <div className="container mx-auto max-w-2xl px-4">
+                <h2 className="font-bold text-center mb-4 text-4xl text-gray-900">
+                    {t("aboutOwners.title")}
                 </h2>
 
-                <div className="bg-gray-50 rounded-lg shadow-md p-8">
+                <div className="rounded-lg bg-gray-50 shadow-md p-8">
                     {/* Owner Image */}
                     <div className="mb-6">
                         <Image
-                            width={160}      // md:h-40 = 160px
-                            height={160}     // md:w-40 = 160px
+                            width={160} // md:h-40 = 160px
+                            height={160} // md:w-40 = 160px
                             src="/about_the_owners.jpg"
-                            alt="Owners"
-                            className="w-full h-64 object-cover rounded-lg"
+                            alt={t("aboutOwners.imageAlt")}
+                            className="rounded-lg object-cover h-64 w-full"
                         />
                     </div>
 
                     {/* Blurb */}
-                    <div className="text-gray-700 space-y-4">
-                        <p>
-                            We are a family with a residence history on both sides of the Atlantic
-                            that spans several decades now. Our love of outdoors (hiking, biking,
-                            kayaking, skiing, snowboarding or tennis) finds echoes in the gear we
-                            keep in our houses. Likewise, you’ll find our joy of cooking reflected
-                            in the richly equipped kitchens. The practical steps we took to keep
-                            our equipment handy should make your visits richer. And all three
-                            locations offer numerous indoor cultural activities year-round. So,
-                            plan your visits accordingly. We hope you’ll enjoy staying here as
-                            much as we do.
-                        </p>
+                    <div className="space-y-4 text-gray-700">
+                        {paragraphs.map((p, idx) => (
+                            <p key={idx}>{p}</p>
+                        ))}
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default AboutOwners
+export default AboutOwners;

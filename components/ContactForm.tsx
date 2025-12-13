@@ -1,64 +1,66 @@
 "use client";
 
-import { useState } from 'react'
+import { useState } from 'react';
+import { useTranslation } from "react-i18next";
+import "../i18n/client";
 
 function ContactForm() {
+    const { t } = useTranslation("common");
+
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
         email: '',
         phone: '',
         message: ''
-    })
+    });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target
+        const { name, value } = e.target;
         setFormData(prev => ({
             ...prev,
             [name]: value
-        }))
-    }
+        }));
+    };
 
     const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+        e.preventDefault();
 
-    const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(formData)
-    });
-
-    if (res.ok) {
-        alert("Message sent! I'll get back to you soon.");
-        setFormData({
-            firstName: '',
-            lastName: '',
-            email: '',
-            phone: '',
-            message: ''
+        const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData)
         });
-    } else {
-        alert("Something went wrong. Please try again later.");
-    }
-};
+
+        if (res.ok) {
+            alert(t("contactForm.success"));
+            setFormData({
+                firstName: '',
+                lastName: '',
+                email: '',
+                phone: '',
+                message: ''
+            });
+        } else {
+            alert(t("contactForm.error"));
+        }
+    };
 
     return (
         <div className="bg-white py-16">
-            <div className="max-w-2xl">
-                <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">
-                    Contact Us
+            <div className="mx-auto max-w-2xl px-4">
+                <h2 className="font-bold text-center mb-4 text-4xl text-gray-900">
+                    {t("contactForm.title")}
                 </h2>
-                <p className="text-center text-gray-600 mb-8">
-                    Interested? We'd love to hear from you.
+                <p className="text-center mb-8 text-gray-600">
+                    {t("contactForm.subtitle")}
                 </p>
 
-                <form onSubmit={handleSubmit} className="bg-gray-50 rounded-lg shadow-md p-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <form onSubmit={handleSubmit} className="rounded-lg bg-gray-50 shadow-md p-8">
+                    <div className="mb-6 grid gap-6 grid-cols-1 md:grid-cols-2">
                         <div>
-                            <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                                First Name *
+                            <label htmlFor="firstName" className="font-medium text-sm mb-2 text-gray-700 block">
+                                {t("contactForm.firstName")} *
                             </label>
                             <input
                                 type="text"
@@ -67,13 +69,13 @@ function ContactForm() {
                                 value={formData.firstName}
                                 onChange={handleChange}
                                 required
-                                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                                className="border rounded-md outline-none border-gray-300 text-black w-full py-2 px-4 transition focus:border-transparent focus:ring-2 focus:ring-blue-500"
                             />
                         </div>
 
                         <div>
-                            <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                                Last Name *
+                            <label htmlFor="lastName" className="font-medium text-sm mb-2 text-gray-700 block">
+                                {t("contactForm.lastName")} *
                             </label>
                             <input
                                 type="text"
@@ -82,15 +84,15 @@ function ContactForm() {
                                 value={formData.lastName}
                                 onChange={handleChange}
                                 required
-                                className="w-full text-black px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                                className="border rounded-md outline-none border-gray-300 text-black w-full py-2 px-4 transition focus:border-transparent focus:ring-2 focus:ring-blue-500"
                             />
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div className="mb-6 grid gap-6 grid-cols-1 md:grid-cols-2">
                         <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                                Email *
+                            <label htmlFor="email" className="font-medium text-sm mb-2 text-gray-700 block">
+                                {t("contactForm.email")} *
                             </label>
                             <input
                                 type="email"
@@ -99,13 +101,13 @@ function ContactForm() {
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
-                                className="w-full text-black px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                                className="border rounded-md outline-none border-gray-300 text-black w-full py-2 px-4 transition focus:border-transparent focus:ring-2 focus:ring-blue-500"
                             />
                         </div>
 
                         <div>
-                            <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                                Phone
+                            <label htmlFor="phone" className="font-medium text-sm mb-2 text-gray-700 block">
+                                {t("contactForm.phone")}
                             </label>
                             <input
                                 type="tel"
@@ -113,14 +115,14 @@ function ContactForm() {
                                 name="phone"
                                 value={formData.phone}
                                 onChange={handleChange}
-                                className="w-full text-black px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                                className="border rounded-md outline-none border-gray-300 text-black w-full py-2 px-4 transition focus:border-transparent focus:ring-2 focus:ring-blue-500"
                             />
                         </div>
                     </div>
 
                     <div className="mb-6">
-                        <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                            Message *
+                        <label htmlFor="message" className="font-medium text-sm mb-2 text-gray-700 block">
+                            {t("contactForm.message")} *
                         </label>
                         <textarea
                             id="message"
@@ -129,20 +131,20 @@ function ContactForm() {
                             onChange={handleChange}
                             required
                             rows={5}
-                            className="w-full text-black px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition resize-none"
+                            className="border rounded-md outline-none border-gray-300 text-black w-full py-2 px-4 transition resize-none focus:border-transparent focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
 
                     <button
                         type="submit"
-                        className="w-full bg-blue-600 text-white font-semibold py-3 px-6 rounded-md hover:bg-blue-700 transition duration-200 hover:cursor-pointer"
+                        className="rounded-md font-semibold bg-blue-600 text-white w-full py-3 px-6 transition duration-200 hover:cursor-pointer hover:bg-blue-700"
                     >
-                        Submit
+                        {t("contactForm.submit")}
                     </button>
                 </form>
             </div>
         </div>
-    )
+    );
 }
 
-export default ContactForm
+export default ContactForm;
