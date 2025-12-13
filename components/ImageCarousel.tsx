@@ -31,56 +31,58 @@ function ImageCarousel({ images }: ImageCarouselProps) {
     }
 
     return (
-        <div className="relative overflow-hidden rounded-lg shadow-xl bg-gray-200">
-            {/* SLIDES (this moves) */}
-            <div
-                className="flex transition-transform duration-700 ease-in-out"
-                style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}
-            >
-                {images.map((image, index) => (
-                    <div
-                        key={image}
-                        className="relative min-w-full aspect-video flex-shrink-0"
-                    >
-                        <Image
-                            src={image}
-                            alt={`Gallery image ${index + 1}`}
-                            fill
-                            sizes="(max-width: 768px) 100vw, 50vw"
-                            className="object-cover"
-                            priority={index === 0}
-                        />
-                    </div>
-                ))}
+        <div className="relative">
+            <div className="relative overflow-hidden rounded-lg shadow-xl bg-gray-200 max-h-fit">
+                {/* Images (this moves) */}
+                <div
+                    className="flex transition-transform duration-700 ease-in-out"
+                    style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}
+                >
+                    {images.map((image, index) => (
+                        <div
+                            key={image}
+                            className="relative min-w-full aspect-video flex-shrink-0"
+                        >
+                            <Image
+                                src={image}
+                                alt={`Gallery image ${index + 1}`}
+                                fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                className="object-cover"
+                                priority={index === 0}
+                            />
+                        </div>
+                    ))}
+                </div>
+
+                {/* Left/Right Navigation (this does NOT move) */}
+                <button
+                    onClick={prevImage}
+                    className="absolute left-4 top-1/2 -translate-y-1/2
+               bg-white/80 hover:bg-white text-gray-800
+               p-3 rounded-full shadow-lg z-10 cursor-pointer"
+                    aria-label="Previous image"
+                >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+
+                <button
+                    onClick={nextImage}
+                    className="absolute right-4 top-1/2 -translate-y-1/2
+               bg-white/80 hover:bg-white text-gray-800
+               p-3 rounded-full shadow-lg z-10 cursor-pointer"
+                    aria-label="Next image"
+                >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
             </div>
 
-            {/* CONTROLS (this does NOT move) */}
-            <button
-                onClick={prevImage}
-                className="absolute left-4 top-1/2 -translate-y-1/2
-               bg-white/80 hover:bg-white text-gray-800
-               p-3 rounded-full shadow-lg z-10 cursor-pointer"
-                aria-label="Previous image"
-            >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-            </button>
-
-            <button
-                onClick={nextImage}
-                className="absolute right-4 top-1/2 -translate-y-1/2
-               bg-white/80 hover:bg-white text-gray-800
-               p-3 rounded-full shadow-lg z-10 cursor-pointer"
-                aria-label="Next image"
-            >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-            </button>
-
             {/* Image Indicators */}
-            <div className="flex justify-center gap-2 mt-2 mb-2">
+            <div className="hidden lg:flex justify-center gap-2 mt-2 mb-2">
                 {images.map((_, index) => (
                     <button
                         key={index}

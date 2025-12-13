@@ -19,8 +19,8 @@ function AboutOwners() {
                     {/* Owner Image */}
                     <div className="mb-6">
                         <Image
-                            width={1920} // md:h-40 = 160px
-                            height={1920} // md:w-40 = 160px
+                            width={1920}
+                            height={1920}
                             src="/about_the_owners.jpg"
                             alt={t("aboutOwners.imageAlt")}
                             className="rounded-lg object-cover h-64 w-full"
