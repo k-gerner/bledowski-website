@@ -12,6 +12,7 @@ import ContactForm from '../components/ContactForm'
 import AboutOwners from '../components/AboutOwners'
 import ClassificationCertification from '../components/ClassificationCertification'
 import LocationMap from '../components/LocationMap'
+import Footer from '../components/Footer'
 
 export default function Page() {
   // Placeholder images - replace with your actual images
@@ -91,6 +92,8 @@ export default function Page() {
           <ContactForm />
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }
