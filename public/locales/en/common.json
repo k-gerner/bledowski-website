@@ -189,5 +189,35 @@
   },
   "availabilitycalendar": {
     "lang": "en"
+  },
+  "location": {
+    "title": "Location",
+    "howToGetThere": {
+      "title": "How to get there?",
+      "description": "Mont-Tremblant is 150 km (95 miles) from Ottawa and 120 km (75 miles) from Montréal. Take exit 119 off Québec Route 117 (Transcanadienne) and proceed 4 km on Montée Ryan North to a roundabout. Turn left onto Québec Route 327 (Chemin du Village) and drive another 4.5 km. In the Old Village, you will pass the post office (on right) and a petrol station (on left). Just past the youth hostel, turn left onto rue Rabellino. Proceed about 150 m and turn onto Chemin de la Falaise (second left). The chalet is another 50 m on your left."
+    },
+    "attractions": {
+      "title": "How far are the tourist attractions?",
+      "oldVillage": {
+        "name": "Old village (Lake Mercier/public beach/P'tit Train du Nord/post office)",
+        "distance": "4 minutes by car/10 minutes by bike/20 minutes on foot"
+      },
+      "resort": {
+        "name": "Resort (ski centre/pedestrian village)",
+        "distance": "8 minutes by car/20 minutes by bike/50 minutes on foot"
+      },
+      "downtown": {
+        "name": "Downtown (St. Jovite)",
+        "distance": "15 minutes by car"
+      },
+      "nationalPark": {
+        "name": "Mont-Tremblant National Park",
+        "distance": "30 minutes by car"
+      },
+      "domainStBernard": {
+        "name": "Domain St Bernard",
+        "distance": "15 minutes by car"
+      }
+    }
   }
 }
