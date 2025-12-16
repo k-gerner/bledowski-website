@@ -189,5 +189,35 @@
   },
   "availabilitycalendar": {
     "lang": "pl"
+  },
+  "location": {
+    "title": "Lokalizacja",
+    "howToGetThere": {
+      "title": "Jak się tam dostać?",
+      "description": "Mont-Tremblant znajduje się 150 km (95 mil) od Ottawy i 120 km (75 mil) od Montrealu. Zjechać z Route 117 (Transcanadienne) zjazdem 119 i jechać 4 km Montée Ryan North do ronda. Skręcić w lewo na Route 327 (Chemin du Village) i jechać kolejne 4,5 km. W Starej Wiosce miniesz pocztę (po prawej) i stację benzynową (po lewej). Zaraz za schroniskiem młodzieżowym skręć w lewo na rue Rabellino. Jedź około 150 m i skręć na Chemin de la Falaise (drugi w lewo). Domek jest kolejne 50 m po lewej stronie."
+    },
+    "attractions": {
+      "title": "Jak daleko znajdują się atrakcje turystyczne?",
+      "oldVillage": {
+        "name": "Stara Wioska (Jezioro Mercier/plaża publiczna/P'tit Train du Nord/poczta)",
+        "distance": "4 minuty samochodem/10 minut rowerem/20 minut pieszo"
+      },
+      "resort": {
+        "name": "Ośrodek (centrum narciarskie/wioska piesza)",
+        "distance": "8 minut samochodem/20 minut rowerem/50 minut pieszo"
+      },
+      "downtown": {
+        "name": "Centrum (St. Jovite)",
+        "distance": "15 minut samochodem"
+      },
+      "nationalPark": {
+        "name": "Park Narodowy Mont-Tremblant",
+        "distance": "30 minut samochodem"
+      },
+      "domainStBernard": {
+        "name": "Domaine St-Bernard",
+        "distance": "15 minut samochodem"
+      }
+    }
   }
 }

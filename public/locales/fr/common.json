@@ -189,5 +189,35 @@
   },
   "availabilitycalendar": {
     "lang": "fr"
+  },
+  "location": {
+    "title": "Emplacement",
+    "howToGetThere": {
+      "title": "Comment s'y rendre?",
+      "description": "Mont-Tremblant est à 150 km (95 miles) d'Ottawa et à 120 km (75 miles) de Montréal. Prendre la sortie 119 de la route 117 du Québec (Transcanadienne) et continuer 4 km sur la Montée Ryan Nord jusqu'à un rond-point. Tourner à gauche sur la route 327 du Québec (Chemin du Village) et conduire encore 4,5 km. Dans le Vieux-Village, vous passerez le bureau de poste (à droite) et une station-service (à gauche). Juste après l'auberge de jeunesse, tourner à gauche sur la rue Rabellino. Continuer environ 150 m et tourner sur le Chemin de la Falaise (deuxième à gauche). Le chalet est à 50 m sur votre gauche."
+    },
+    "attractions": {
+      "title": "À quelle distance se trouvent les attractions touristiques?",
+      "oldVillage": {
+        "name": "Vieux-Village (Lac Mercier/plage publique/P'tit Train du Nord/bureau de poste)",
+        "distance": "4 minutes en voiture/10 minutes en vélo/20 minutes à pied"
+      },
+      "resort": {
+        "name": "Station (centre de ski/village piétonnier)",
+        "distance": "8 minutes en voiture/20 minutes en vélo/50 minutes à pied"
+      },
+      "downtown": {
+        "name": "Centre-ville (St. Jovite)",
+        "distance": "15 minutes en voiture"
+      },
+      "nationalPark": {
+        "name": "Parc national du Mont-Tremblant",
+        "distance": "30 minutes en voiture"
+      },
+      "domainStBernard": {
+        "name": "Domaine St-Bernard",
+        "distance": "15 minutes en voiture"
+      }
+    }
   }
 }

@@ -11,6 +11,8 @@ import Amenities from '../components/Amenities'
 import ContactForm from '../components/ContactForm'
 import AboutOwners from '../components/AboutOwners'
 import ClassificationCertification from '../components/ClassificationCertification'
+import LocationMap from '../components/LocationMap'
+import Footer from '../components/Footer'
 
 export default function Page() {
   // Placeholder images - replace with your actual images
@@ -79,6 +81,10 @@ export default function Page() {
 
         {/* Testimonials Section */}
         <Testimonials />
+        {/* Location Map Section */}
+        <section className="container mx-auto px-4">
+          <LocationMap />
+        </section>
 
         {/* About Owners & Contact Form Section - Side by Side */}
         <section className="container mx-auto grid px-4 gap-8 items-start md:grid-cols-2">
@@ -86,6 +92,8 @@ export default function Page() {
           <ContactForm />
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }
