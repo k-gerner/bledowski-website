@@ -23,7 +23,7 @@
         ]
       },
       "outside": {
-        "title": "Extérieur",
+        "title": "A l'extérieur",
         "items": [
           "Terrasse",
           "Mobilier de patio (été)",
@@ -31,17 +31,17 @@
           "Galerie entourant la maison",
           "Remise attenante",
           "2 espaces de stationnement réservés",
-          "Stationnement sur rue (été)",
+          "Stationnement dans la rue (été)",
           "Prises pour chauffe-moteur (120 V)",
           "Éclairage extérieur avec minuterie",
           "Service de déneigement"
         ]
       },
       "inside": {
-        "title": "Intérieur",
+        "title": "A l'intérieur",
         "items": [
           "Foyer",
-          "Cheminée",
+          "Mezzanine",
           "Plafond cathédrale",
           "Thermostats individuels",
           "Chauffage électrique",
@@ -54,7 +54,7 @@
         ]
       },
       "bonus": {
-        "title": "Bonus",
+        "title": "En Prime",
         "items": [
           "Télévision par câble",
           "Téléviseur HD, Blu-ray, CD",
@@ -76,13 +76,13 @@
   },
   "propertydescription": {
     "title": "En un coup d'œil",
-    "p1": "Le Chalet la Falaise est une maison polyvalente qui accueille aussi bien les courts séjours que les plus longs. La mezzanine peut servir de terrain de jeu pour les enfants. Les salles de bain rénovées mettent l'accent sur la fonctionnalité tandis que l'espace de vie apporte tout le confort d'un foyer. Situé à l'écart de l'agitation du village piétonnier, le chalet reste néanmoins proche des commodités du Vieux Village tout proche.",
-    "p2": "Notre confortable maison de trois chambres est nichée dans une ruelle campagnarde mais reste à distance de marche des boutiques et restaurants du Vieux Village. Marchez 200 m jusqu'à un arrêt de bus municipal ou conduisez cinq minutes (4 km) jusqu'aux pistes de ski (côté sud). L'accès au Lac Moore est inclus. De plus, le chalet est à deux pas des pistes cyclables, sentiers de randonnée et d'une patinoire.",
-    "p3": "Une grande terrasse est équipée d'un barbecue et d'une table pour huit personnes (été uniquement). Vous avez accès à un petit cabanon extérieur verrouillable, parfait pour ranger du matériel de sport. Le Chalet la Falaise est une propriété familiale. Les couples apprécieront leur escapade romantique tandis que tout le confort nécessaire attend jusqu'à deux familles."
+    "p1": "Le Chalet la Falaise se prête également à de cours qu’à de longs séjours. La mezzanine peut servir d’un terrain de jeu pour des enfants. Des salles de bain ont été récemment rafraichie pendant que tout l’espace de vie met en valeur des conforts simple mais accueillant.",
+    "p2": "La demeure de 3 CAC est nichée parmi les arbres sur un chemin champêtre. À proximité des boutiques et des restaurants du Vieux Village. Vous n’êtes qu’à 200 m de l’arrêt d’autobus et qu’à huit minutes (4 km) en voiture des pistes de ski (Versant Sud). Vous avez un droit de passage au Lac Moore et le chalet est à quelques pas des pistes cyclables, des sentiers de randonnée en nature et d’une patinoire.",
+    "p3": "Une terrasse assez grande a tout ce qu’il faut pour un barbecue. Une table et huit chaises confortables sont là pour vous (été seulement). Vous avez accès au cabanon, parfait pour l’équipement sportif. Un matelas d’enfant est disponible ainsi que des couvertures, draps, oreillers et taies. Une chaise haute est là pour vos petits. Le Chalet la Falaise est une maison familiale qui se prête parfaitement à un séjour romantique ou à des vacances en famille."
   },
   "propertydetails": {
     "title": "Détails de la propriété",
-    "subtitle": "Construit en 2000, notre chalet dispose de planchers de bois franc au rez-de-chaussée et de touches méditerranéennes dans les salles de bain. Les 1 400 pi² (130 m²) d’espace de vie sont répartis sur deux étages."
+    "subtitle": "Construit en 2000, notre chalet offre un chaleureux décor au rez-de-chaussée et des salles de bain aux accents méditerranéens. La surface habitable de 1 400 pi² (130 m²) est répartie sur deux niveaux. Au rez-de-chaussée vous trouverez la spacieuse cuisine complètement équipée, la salle de séjour avec l’espace repas et la partie salon, la chambre d’amis et une salle de bain complète. Le premier étage se compose d’une mezzanine, de la chambre des maîtres, de la chambre des enfants d’une salle de bain complète. Le plafond cathédrale s’étend sur les deux niveaux."
   },
   "layoutinfo": {
     "title": "Disposition",
@@ -191,7 +191,7 @@
     "lang": "fr"
   },
   "location": {
-    "title": "Emplacement",
+    "title": "Localisation",
     "howToGetThere": {
       "title": "Comment s'y rendre?",
       "description": "Mont-Tremblant est à 150 km (95 miles) d'Ottawa et à 120 km (75 miles) de Montréal. Prendre la sortie 119 de la route 117 du Québec (Transcanadienne) et continuer 4 km sur la Montée Ryan Nord jusqu'à un rond-point. Tourner à gauche sur la route 327 du Québec (Chemin du Village) et conduire encore 4,5 km. Dans le Vieux-Village, vous passerez le bureau de poste (à droite) et une station-service (à gauche). Juste après l'auberge de jeunesse, tourner à gauche sur la rue Rabellino. Continuer environ 150 m et tourner sur le Chemin de la Falaise (deuxième à gauche). Le chalet est à 50 m sur votre gauche."
